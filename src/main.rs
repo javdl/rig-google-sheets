@@ -2,7 +2,7 @@ use std::io::stdin;
 
 use mcp_core::{
     client::ClientBuilder,
-    transport::{ClientSseTransport, ClientSseTransportBuilder, ClientStdioTransport},
+    transport::{ClientSseTransport, ClientSseTransportBuilder},
     types::{Implementation, ToolsListResponse},
 };
 use rig::{
